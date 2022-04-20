@@ -1,0 +1,421 @@
+body{
+    background: #fff;
+}
+ul li{
+    text-transform: uppercase;
+    font-family: lato, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.logo{
+    display: block;
+    width: 250px;
+    height: 123px;
+    border-right: 1px solid #333;
+}
+.logo img{
+    width: 152px;
+    height: 72px;
+    margin-left: 54px;
+    margin-top: 33px;
+}
+.carousel-item {
+    height: 40rem;
+    color: white;
+    background-color: black;
+    position: relative;
+}
+.container {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding-bottom: 50px;
+}
+.whats-new{
+    width: 1920px;
+    height: 525px;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.news-img, .news-info{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.news-header{
+    text-transform: uppercase;
+    font-family: lato, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #fff;
+    font-size: 12pt;
+    padding-bottom: 20px;
+}
+.news-desc{
+    color: #666;
+    font-family: lato, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 12pt;
+    padding-bottom: 30px;
+}
+.buy-link{
+    text-decoration: underline;
+    color: #666;
+    font-family: lato, sans-serif;
+    font-weight: 300;
+    font-size: 12pt;
+    font-style: normal;
+}
+.gallery-call{
+    text-align: center;
+    margin-top: 175px;
+    margin-bottom: 100px;
+}
+.gallery-call h2{
+    font-family: lato, sans-serif;
+    font-weight: 900;
+    font-size: 16pt;
+    font-style: normal;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.gallery-call p{
+    font-family: lato, sans-serif;
+    font-weight: 300;
+    font-size: 10pt;
+    font-style: normal;
+    color: #666;
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 220px;
+    margin-right: 220px;
+    padding: 15px;
+    justify-content: space-between;
+}
+.gallery-img{
+    margin: 10px;
+}
+.gallery-img-gap{
+    margin: 10px 0;
+}
+.sale-nav{
+    margin-top: 200px;
+    width: 1920px;
+    height: 785px;
+    background: black;
+}
+.sale-header h3{
+    text-transform: uppercase;
+    text-align: center;
+    font-family: lato, sans-serif;
+    font-weight: 300;
+    font-size: 16pt;
+    font-style: normal;
+    text-transform: uppercase;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    color: #fff;
+}
+.sale-menu{
+    display: flex;
+    margin-left: 220px;
+    margin-right: 220px;
+    justify-content: space-between;
+}
+.item-name{
+    color: #666;
+    font-family: lato, sans-serif;
+    font-weight: 300;
+    font-size: 12pt;
+    font-style: normal;
+    white-space: pre-line;
+}
+.item-name::first-line{
+    color: #fff;
+}
+.item-sale-info{
+    display: inline-flex;
+}
+.item-price{
+    color: #fff;
+    padding-left: 160px;
+}
+.highlight-nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+    margin-left: 220px;
+    margin-right: 220px;
+}
+.highlight-info{
+    padding-left: 120px;
+    padding-right: 150px;
+}
+.highlight-link{
+    font-family: lato, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    text-transform: uppercase;
+    color: #666;
+    font-size: 16px;
+    text-decoration: none;
+}
+.highlight-header{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: lato, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #4D4D4D;
+    font-size: 30px;
+}
+.highlight-desc{
+    font-family: lato, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    color: #666;
+    font-size: 15px;
+    padding-bottom: 15px;
+}
+.highlight-more{
+    color: #666;
+    font-family: lato, sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    font-style: normal;
+    line-height: 30px;
+}
+.highlight-colors{
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-family: lato, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #1A1A1A;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.color-wrapper{
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.color-dot1, .color-dot2, .color-dot3, .color-dot4, .color-dot5, .color-dot6{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+.color-dot1{
+    background-color: #000;
+}
+.color-dot2{
+    background-color: #FF0000;
+}
+.color-dot3{
+    background-color: #603813;
+}
+.color-dot4{
+    background-color: #42210B;
+}
+.color-dot5{
+    background-color: #80005D;
+}
+.color-dot6{
+    background-color: #00719A;
+}
+.highlight-button{
+    display: block;
+    margin-top: 20px;
+    color: #1A1A1A;
+    background: #fff;
+    border-radius: 20px;
+    padding: 10px 15px 10px 15px;
+    font-family: lato, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: 10px;
+    letter-spacing: 0.5px;
+}
+.highlight-button:hover{
+    background: #666;
+    color: #fff;
+}
+.hoodies-snickers{
+    margin-top: 200px;
+    display: flex;
+    height: 845px;
+}
+.hoodies-intro{
+    background-image: url("hoodies-intro.png");
+    background-repeat: no-repeat;
+}
+.snickers-intro{
+    background-image: url("snickers-intro.png");
+    background-repeat: no-repeat;
+}
+.hoodies-intro, .snickers-intro{
+    padding: 150px 350px 0 200px;
+}
+.hs-header, .hs-para, .hs-buy{
+    color: #fff;
+    font-family: lato, sans-serif;
+    font-style: normal;
+}
+.hs-header{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 40px;
+}
+.hs-para{
+    color: #C4C4C4;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 18px;
+    padding: 20px 0;
+}
+.hs-buy a{
+    text-transform: uppercase;
+    color: #D0D0D0;
+    text-decoration: none;
+    border-bottom: 1px solid #D0D0D0;
+    font-size: 14px;
+}
+.bottom{
+    margin-top: 150px;
+}
+.bottom-header{
+    font-family: lato, sans-serif;
+    font-style: normal;
+    text-align: center;
+    margin-bottom: 80px;
+}
+.bottom-header h3{
+    text-transform: uppercase;
+    color: #000;
+    padding-bottom: 15px;
+    font-weight: 900;
+}
+.bottom-header h4{
+    color: #666;
+    font-weight: 500;
+}
+.categories-nav{
+    display: flex;
+    padding-left: 220px;
+    padding-right: 220px;
+    justify-content: space-around;
+}
+.categories-item a{
+    display: block;
+    font-family: lato, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #666;
+    text-decoration: none;
+}
+.categories-item img{
+    display: block;
+    margin: 0 auto;
+    padding-top: 15px;
+}
+.ship-info{
+    background: #282828;
+    height: 195px;
+    margin: 100px 0;
+    display: flex;
+    padding: 80px 220px;
+}
+.ship-info h4{
+    flex: 1;
+    font-family: lato, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #fff;
+    padding-top: 10px;
+}
+.ship-info img{
+    padding-left: 10px;
+}
+footer{
+    margin-left: 220px;
+    margin-right: 220px;
+    margin-top: 120px;
+    margin-bottom: 100px;
+}
+.footer-info{
+    display: flex;
+}
+.footer-left, .footer-right{
+    flex-basis: 50%;
+}
+.footer-left{
+    margin-right: 120px;
+}
+.footer-right{
+    margin-left: 120px;
+}
+.footer-left img{
+    width: 16px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.footer-para{
+    font-family: lato, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #666;
+    margin-bottom: 20px;
+    font-size: 18px;
+    line-height: 25px;
+}
+.footer-right h5{
+    font-family: lato, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+.footer-right h6{
+    font-family: lato, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+.footer-right input[type=text]{
+    width: 270px;
+    height: 40px;
+    padding-left: 10px;
+    border: 1px solid black;
+    font-family: lato, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+}
+.footer-right button{
+    width: 100px;
+    height: 41px;
+    border: none;
+    background: #000;
+    color: #fff;
+    font-family: lato, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+}
+.footer-right button:hover{
+    background: #666;
+}
